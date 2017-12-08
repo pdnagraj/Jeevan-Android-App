@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.partharya.bump.ProfileActivity">
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="30sp"
+        android:textIsSelectable="true"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <TextView
+        android:id="@+id/textViewNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number"
+        android:textSize="30sp"
+        android:textIsSelectable="true"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <TextView
+        android:id="@+id/textViewFacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facebook"
+        android:textSize="30sp"
+        android:textIsSelectable="true"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <TextView
+        android:id="@+id/textViewSnapchat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Snapchat"
+        android:textSize="30sp"
+        android:textIsSelectable="true"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+    <TextView
+        android:id="@+id/textViewLinkedIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Linkedin"
+        android:textSize="30sp"
+        android:textIsSelectable="true"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="354dp" />
+</android.support.v7.widget.LinearLayoutCompat>
